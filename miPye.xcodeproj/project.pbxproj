@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1891CB2D26EF24C400F3CB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB2C26EF24C400F3CB4E /* AppDelegate.swift */; };
+		1891CB2F26EF24C400F3CB4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB2E26EF24C400F3CB4E /* SceneDelegate.swift */; };
+		1891CB3126EF24C400F3CB4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB3026EF24C400F3CB4E /* ViewController.swift */; };
+		1891CB3426EF24C400F3CB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1891CB3226EF24C400F3CB4E /* Main.storyboard */; };
+		1891CB3626EF24C700F3CB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891CB3526EF24C700F3CB4E /* Assets.xcassets */; };
+		1891CB3926EF24C700F3CB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1891CB3726EF24C700F3CB4E /* LaunchScreen.storyboard */; };
+		1891CB4626EF2FA200F3CB4E /* shadowview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB4426EF2FA100F3CB4E /* shadowview.swift */; };
+		1891CB4726EF2FA200F3CB4E /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB4526EF2FA100F3CB4E /* UIExtension.swift */; };
+		1891CB4926EF2FC200F3CB4E /* Rubik in Resources */ = {isa = PBXBuildFile; fileRef = 1891CB4826EF2FC200F3CB4E /* Rubik */; };
+		1891CB4B26EF354800F3CB4E /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB4A26EF354800F3CB4E /* SliderViewController.swift */; };
+		1891CB4D26EF35FA00F3CB4E /* HomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB4C26EF35FA00F3CB4E /* HomeSliderCollectionViewCell.swift */; };
+		1891CB4F26EF4ACA00F3CB4E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB4E26EF4ACA00F3CB4E /* LoginVC.swift */; };
+		1891CB5126EF4B0B00F3CB4E /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5026EF4B0B00F3CB4E /* signupVC.swift */; };
+		1891CB5326EF4B4700F3CB4E /* ForgotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5226EF4B4700F3CB4E /* ForgotVC.swift */; };
+		1891CB5526EF5AE300F3CB4E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5426EF5AE300F3CB4E /* TabBarViewController.swift */; };
+		1891CB5D26EF5E6C00F3CB4E /* RestaurantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5726EF5E6A00F3CB4E /* RestaurantDetailTextCell.swift */; };
+		1891CB5E26EF5E6C00F3CB4E /* RestaurantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5826EF5E6B00F3CB4E /* RestaurantDetailMapCell.swift */; };
+		1891CB5F26EF5E6C00F3CB4E /* RestaurantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5926EF5E6B00F3CB4E /* RestaurantDetailIconTextCell.swift */; };
+		1891CB6026EF5E6C00F3CB4E /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5A26EF5E6B00F3CB4E /* RestaurantTableViewCell.swift */; };
+		1891CB6126EF5E6C00F3CB4E /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5B26EF5E6C00F3CB4E /* RestaurantDetailHeaderView.swift */; };
+		1891CB6226EF5E6C00F3CB4E /* RestaurantDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB5C26EF5E6C00F3CB4E /* RestaurantDetailSeparatorCell.swift */; };
+		1891CB6626EF5EA500F3CB4E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB6326EF5EA400F3CB4E /* MapViewController.swift */; };
+		1891CB6726EF5EA500F3CB4E /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB6426EF5EA400F3CB4E /* RestaurantDetailViewController.swift */; };
+		1891CB6826EF5EA500F3CB4E /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB6526EF5EA500F3CB4E /* RestaurantTableViewController.swift */; };
+		1891CB6A26EF5EFD00F3CB4E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB6926EF5EFD00F3CB4E /* Restaurant.swift */; };
+		1891CB6D26EF5F5300F3CB4E /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB6B26EF5F5300F3CB4E /* UINavigationController+Ext.swift */; };
+		1891CB6E26EF5F5300F3CB4E /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891CB6C26EF5F5300F3CB4E /* UIColor+Ext.swift */; };
+		95F9A9EC723887B4C77DF5A4 /* Pods_miPye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E294A5913B71C58509EB65 /* Pods_miPye.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0285F2A5FB3D9ADB30F98818 /* Pods-miPye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miPye.release.xcconfig"; path = "Target Support Files/Pods-miPye/Pods-miPye.release.xcconfig"; sourceTree = "<group>"; };
+		1891CB2926EF24C400F3CB4E /* miPye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miPye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891CB2C26EF24C400F3CB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1891CB2E26EF24C400F3CB4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1891CB3026EF24C400F3CB4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1891CB3326EF24C400F3CB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1891CB3526EF24C700F3CB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1891CB3826EF24C700F3CB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1891CB3A26EF24C700F3CB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1891CB4426EF2FA100F3CB4E /* shadowview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shadowview.swift; sourceTree = "<group>"; };
+		1891CB4526EF2FA100F3CB4E /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		1891CB4826EF2FC200F3CB4E /* Rubik */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rubik; sourceTree = "<group>"; };
+		1891CB4A26EF354800F3CB4E /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		1891CB4C26EF35FA00F3CB4E /* HomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		1891CB4E26EF4ACA00F3CB4E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1891CB5026EF4B0B00F3CB4E /* signupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
+		1891CB5226EF4B4700F3CB4E /* ForgotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotVC.swift; sourceTree = "<group>"; };
+		1891CB5426EF5AE300F3CB4E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1891CB5726EF5E6A00F3CB4E /* RestaurantDetailTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTextCell.swift; sourceTree = "<group>"; };
+		1891CB5826EF5E6B00F3CB4E /* RestaurantDetailMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailMapCell.swift; sourceTree = "<group>"; };
+		1891CB5926EF5E6B00F3CB4E /* RestaurantDetailIconTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailIconTextCell.swift; sourceTree = "<group>"; };
+		1891CB5A26EF5E6B00F3CB4E /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		1891CB5B26EF5E6C00F3CB4E /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
+		1891CB5C26EF5E6C00F3CB4E /* RestaurantDetailSeparatorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		1891CB6326EF5EA400F3CB4E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1891CB6426EF5EA400F3CB4E /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		1891CB6526EF5EA500F3CB4E /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		1891CB6926EF5EFD00F3CB4E /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		1891CB6B26EF5F5300F3CB4E /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		1891CB6C26EF5F5300F3CB4E /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		4F4C831194473D12F81BA4CA /* Pods-miPye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-miPye.debug.xcconfig"; path = "Target Support Files/Pods-miPye/Pods-miPye.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E294A5913B71C58509EB65 /* Pods_miPye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_miPye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1891CB2626EF24C400F3CB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F9A9EC723887B4C77DF5A4 /* Pods_miPye.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1891CB2026EF24C400F3CB4E = {
+			isa = PBXGroup;
+			children = (
+				1891CB2B26EF24C400F3CB4E /* miPye */,
+				1891CB2A26EF24C400F3CB4E /* Products */,
+				9F3CDAFD41D1802A4D815DC0 /* Pods */,
+				AA1ECCB6466DA568091EED25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1891CB2A26EF24C400F3CB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB2926EF24C400F3CB4E /* miPye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1891CB2B26EF24C400F3CB4E /* miPye */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB5626EF5C2300F3CB4E /* Model */,
+				1891CB4326EF2E7400F3CB4E /* Resources */,
+				1891CB4226EF2E6600F3CB4E /* Cells */,
+				1891CB4126EF2E5500F3CB4E /* Extensions */,
+				1891CB4026EF2E3200F3CB4E /* Controllers */,
+				1891CB2C26EF24C400F3CB4E /* AppDelegate.swift */,
+				1891CB2E26EF24C400F3CB4E /* SceneDelegate.swift */,
+				1891CB3226EF24C400F3CB4E /* Main.storyboard */,
+				1891CB3526EF24C700F3CB4E /* Assets.xcassets */,
+				1891CB3726EF24C700F3CB4E /* LaunchScreen.storyboard */,
+				1891CB3A26EF24C700F3CB4E /* Info.plist */,
+			);
+			path = miPye;
+			sourceTree = "<group>";
+		};
+		1891CB4026EF2E3200F3CB4E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB6326EF5EA400F3CB4E /* MapViewController.swift */,
+				1891CB6426EF5EA400F3CB4E /* RestaurantDetailViewController.swift */,
+				1891CB6526EF5EA500F3CB4E /* RestaurantTableViewController.swift */,
+				1891CB5426EF5AE300F3CB4E /* TabBarViewController.swift */,
+				1891CB5226EF4B4700F3CB4E /* ForgotVC.swift */,
+				1891CB5026EF4B0B00F3CB4E /* signupVC.swift */,
+				1891CB4E26EF4ACA00F3CB4E /* LoginVC.swift */,
+				1891CB4A26EF354800F3CB4E /* SliderViewController.swift */,
+				1891CB3026EF24C400F3CB4E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1891CB4126EF2E5500F3CB4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB6C26EF5F5300F3CB4E /* UIColor+Ext.swift */,
+				1891CB6B26EF5F5300F3CB4E /* UINavigationController+Ext.swift */,
+				1891CB4426EF2FA100F3CB4E /* shadowview.swift */,
+				1891CB4526EF2FA100F3CB4E /* UIExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1891CB4226EF2E6600F3CB4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB5B26EF5E6C00F3CB4E /* RestaurantDetailHeaderView.swift */,
+				1891CB5926EF5E6B00F3CB4E /* RestaurantDetailIconTextCell.swift */,
+				1891CB5826EF5E6B00F3CB4E /* RestaurantDetailMapCell.swift */,
+				1891CB5C26EF5E6C00F3CB4E /* RestaurantDetailSeparatorCell.swift */,
+				1891CB5726EF5E6A00F3CB4E /* RestaurantDetailTextCell.swift */,
+				1891CB5A26EF5E6B00F3CB4E /* RestaurantTableViewCell.swift */,
+				1891CB4C26EF35FA00F3CB4E /* HomeSliderCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1891CB4326EF2E7400F3CB4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB4826EF2FC200F3CB4E /* Rubik */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1891CB5626EF5C2300F3CB4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1891CB6926EF5EFD00F3CB4E /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F3CDAFD41D1802A4D815DC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F4C831194473D12F81BA4CA /* Pods-miPye.debug.xcconfig */,
+				0285F2A5FB3D9ADB30F98818 /* Pods-miPye.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA1ECCB6466DA568091EED25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E294A5913B71C58509EB65 /* Pods_miPye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1891CB2826EF24C400F3CB4E /* miPye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1891CB3D26EF24C700F3CB4E /* Build configuration list for PBXNativeTarget "miPye" */;
+			buildPhases = (
+				49817A2B5CAB758DFDAC5566 /* [CP] Check Pods Manifest.lock */,
+				1891CB2526EF24C400F3CB4E /* Sources */,
+				1891CB2626EF24C400F3CB4E /* Frameworks */,
+				1891CB2726EF24C400F3CB4E /* Resources */,
+				649DE5991153C5580454319F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = miPye;
+			productName = miPye;
+			productReference = 1891CB2926EF24C400F3CB4E /* miPye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1891CB2126EF24C400F3CB4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1891CB2826EF24C400F3CB4E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1891CB2426EF24C400F3CB4E /* Build configuration list for PBXProject "miPye" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1891CB2026EF24C400F3CB4E;
+			productRefGroup = 1891CB2A26EF24C400F3CB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1891CB2826EF24C400F3CB4E /* miPye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1891CB2726EF24C400F3CB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891CB3926EF24C700F3CB4E /* LaunchScreen.storyboard in Resources */,
+				1891CB3626EF24C700F3CB4E /* Assets.xcassets in Resources */,
+				1891CB4926EF2FC200F3CB4E /* Rubik in Resources */,
+				1891CB3426EF24C400F3CB4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49817A2B5CAB758DFDAC5566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-miPye-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649DE5991153C5580454319F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miPye/Pods-miPye-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-miPye/Pods-miPye-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-miPye/Pods-miPye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1891CB2526EF24C400F3CB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891CB6D26EF5F5300F3CB4E /* UINavigationController+Ext.swift in Sources */,
+				1891CB4626EF2FA200F3CB4E /* shadowview.swift in Sources */,
+				1891CB3126EF24C400F3CB4E /* ViewController.swift in Sources */,
+				1891CB6826EF5EA500F3CB4E /* RestaurantTableViewController.swift in Sources */,
+				1891CB6726EF5EA500F3CB4E /* RestaurantDetailViewController.swift in Sources */,
+				1891CB5526EF5AE300F3CB4E /* TabBarViewController.swift in Sources */,
+				1891CB5126EF4B0B00F3CB4E /* signupVC.swift in Sources */,
+				1891CB4F26EF4ACA00F3CB4E /* LoginVC.swift in Sources */,
+				1891CB2D26EF24C400F3CB4E /* AppDelegate.swift in Sources */,
+				1891CB6126EF5E6C00F3CB4E /* RestaurantDetailHeaderView.swift in Sources */,
+				1891CB6E26EF5F5300F3CB4E /* UIColor+Ext.swift in Sources */,
+				1891CB5326EF4B4700F3CB4E /* ForgotVC.swift in Sources */,
+				1891CB6226EF5E6C00F3CB4E /* RestaurantDetailSeparatorCell.swift in Sources */,
+				1891CB4D26EF35FA00F3CB4E /* HomeSliderCollectionViewCell.swift in Sources */,
+				1891CB5E26EF5E6C00F3CB4E /* RestaurantDetailMapCell.swift in Sources */,
+				1891CB4B26EF354800F3CB4E /* SliderViewController.swift in Sources */,
+				1891CB6026EF5E6C00F3CB4E /* RestaurantTableViewCell.swift in Sources */,
+				1891CB6626EF5EA500F3CB4E /* MapViewController.swift in Sources */,
+				1891CB4726EF2FA200F3CB4E /* UIExtension.swift in Sources */,
+				1891CB6A26EF5EFD00F3CB4E /* Restaurant.swift in Sources */,
+				1891CB5F26EF5E6C00F3CB4E /* RestaurantDetailIconTextCell.swift in Sources */,
+				1891CB5D26EF5E6C00F3CB4E /* RestaurantDetailTextCell.swift in Sources */,
+				1891CB2F26EF24C400F3CB4E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1891CB3226EF24C400F3CB4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1891CB3326EF24C400F3CB4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1891CB3726EF24C700F3CB4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1891CB3826EF24C700F3CB4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1891CB3B26EF24C700F3CB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1891CB3C26EF24C700F3CB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1891CB3E26EF24C700F3CB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4C831194473D12F81BA4CA /* Pods-miPye.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = miPye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itjunction.showmymasjid.miPye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1891CB3F26EF24C700F3CB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0285F2A5FB3D9ADB30F98818 /* Pods-miPye.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = miPye/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.itjunction.showmymasjid.miPye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1891CB2426EF24C400F3CB4E /* Build configuration list for PBXProject "miPye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891CB3B26EF24C700F3CB4E /* Debug */,
+				1891CB3C26EF24C700F3CB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1891CB3D26EF24C700F3CB4E /* Build configuration list for PBXNativeTarget "miPye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891CB3E26EF24C700F3CB4E /* Debug */,
+				1891CB3F26EF24C700F3CB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1891CB2126EF24C400F3CB4E /* Project object */;
+}

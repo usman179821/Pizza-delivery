@@ -1,0 +1,6 @@
+framework module Pods_miPye {
+  umbrella header "Pods-miPye-umbrella.h"
+
+  export *
+  module * { export * }
+}
